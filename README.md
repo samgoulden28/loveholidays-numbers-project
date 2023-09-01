@@ -10,7 +10,9 @@ I like using a TDD approach as I have been provided some inputs and outputs, so 
 
 # Running the project
 
-Simply run `npm i` then `npm t` to see tests passing
+1. `npm run build`
+2. `./bin/numbers-to-words 52101`
+3. `npm run tests`
 
 ## Step 1 - Initialize Project
 

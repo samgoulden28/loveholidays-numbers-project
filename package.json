@@ -1,0 +1,29 @@
+{
+  "name": "loveholidays-numbers-project",
+  "version": "1.0.0",
+  "description": "Hello and thanks for taking the time to review my submission for this project as step 2 of the interview process for the Lead Engineer role at loveholidays.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp numbers-to-words ./bin/numbers-to-words && chmod 755 ./bin/numbers-to-words",
+    "build-and-start": "npm run build && ./bin/numbers-to-words.js",
+    "start": "npm run build-and-start",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/preset-typescript": "^7.22.11",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.5.7",
+    "@types/yargs": "^17.0.24",
+    "babel-jest": "^29.6.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jest": "^29.6.4",
+    "yargs": "^17.7.2"
+  }
+}
