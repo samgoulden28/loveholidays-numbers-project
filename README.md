@@ -42,7 +42,7 @@ Missing required argument: b
 { _: [], a: false, b: 'sam', e: 0, '$0': 'build/index.js' }
 ```
 
-Now thats done, I added an `index.test.ts` file and changes my test script in package.json to "jest"
+Now thats done, I added an `main.test.ts` file and changes my test script in package.json to "jest"
 
 And `npm t` works now!
 
@@ -92,6 +92,8 @@ The logic for this function is tricky but uses a combination of Math.floor and s
 Everything was in place now so I just needed to put it all together and use a function to combine all the arrays into a sentence. This was my final TDD function and wrote this as a test before getting to work on the function.
 
 I had a few bugs - getting the 'and' to sit in the correct place all the time was one of the most challenging parts!
+
+FinallY i realised that the code didnt have the commas in it between the numbers that didnt have "and" at the start, so I added that part in the final constructing method.
 
 ## Conclusion
 

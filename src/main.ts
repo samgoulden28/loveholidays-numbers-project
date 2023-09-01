@@ -105,5 +105,6 @@ export const run = (numToConvert: number) => {
   const resultArray = convertLargeNumberToStringArray(numToConvert);
   const result = convertArrayOfStringArraysToString(resultArray);
 
+  console.log(result);
   return result;
 };
