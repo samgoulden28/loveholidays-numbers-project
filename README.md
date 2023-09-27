@@ -1,12 +1,4 @@
-# loveholidays-numbers-project
-
-Hello and thanks for taking the time to review my submission for this project as step 2 of the interview process for the Lead Engineer role at loveholidays.
-
-When completing challenges like these I like to begin by writing the Readme before writing any code so I can capture all of my thought process as I work on the project.
-
-I've decided to work in Typescript today because its my favourite language! I am going to use yargs to make it into a command line application
-
-I like using a TDD approach as I have been provided some inputs and outputs, so that is what I will do!
+This is a project where you can type a number on the command line and it will convert it to words
 
 # Running the project
 
